@@ -1,5 +1,9 @@
 package com.javademo;
 
+import android.app.Activity;
+
+import com.facebook.react.ReactRootView;
+
 import java.text.ParseException;
 import java.util.Calendar;
 import java.util.Date;
@@ -11,6 +15,8 @@ import java.util.Date;
  * Describer: CaseDemo
  */
 public class CaseDemo {
+    private ReactRootView mReactRootView;
+
     public static long log(){
         return System.currentTimeMillis();
     }

@@ -12,15 +12,17 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 
 public class MainApplication extends Application implements ReactApplication {
-
+//创建成员变量mReactNativeHost对象
   private final ReactNativeHost mReactNativeHost =
       new ReactNativeHost(this) {
         @Override
+        //配置是否开启调试
         public boolean getUseDeveloperSupport() {
           return BuildConfig.DEBUG;
         }
 
         @Override
+        //配置加载模块
         protected List<ReactPackage> getPackages() {
           @SuppressWarnings("UnnecessaryLocalVariable")
           List<ReactPackage> packages = new PackageList(this).getPackages();
@@ -30,6 +32,7 @@ public class MainApplication extends Application implements ReactApplication {
         }
 
         @Override
+        //配置js模块入口
         protected String getJSMainModuleName() {
           return "index";
         }

@@ -2,6 +2,9 @@ package com.javademo;
 
 import com.facebook.react.ReactActivity;
 
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
 public class MainActivity extends ReactActivity {
 
     /**
@@ -12,4 +15,5 @@ public class MainActivity extends ReactActivity {
     protected String getMainComponentName() {
         return "Javademo";
     }
+
 }
