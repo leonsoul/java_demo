@@ -1,7 +1,10 @@
 apply plugin: "com.android.application"
+<<<<<<< HEAD
 
 import com.android.build.OutputFile
 
+=======
+>>>>>>> 409e066b41072a2f0f8b58d0db7026571debd743
 /**
  * The react.gradle file registers a task for each build variant (e.g. bundleDebugJsAndAssets
  * and bundleReleaseJsAndAssets).
@@ -129,7 +132,12 @@ android {
     }
 
     defaultConfig {
+<<<<<<< HEAD
         applicationId "com.java_demo"
+=======
+        applicationId "com.javademo"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+>>>>>>> 409e066b41072a2f0f8b58d0db7026571debd743
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -170,11 +178,19 @@ android {
             // For each separate APK per architecture, set a unique version code as described here:
             // https://developer.android.com/studio/build/configure-apk-splits.html
             def versionCodes = ["armeabi-v7a": 1, "x86": 2, "arm64-v8a": 3, "x86_64": 4]
+<<<<<<< HEAD
             def abi = output.getFilter(OutputFile.ABI)
             if (abi != null) {  // null for the universal-debug, universal-release variants
                 output.versionCodeOverride =
                         versionCodes.get(abi) * 1048576 + defaultConfig.versionCode
             }
+=======
+//            def abi = output.getFilter(OutputFile.ABI)
+//            if (abi != null) {  // null for the universal-debug, universal-release variants
+//                output.versionCodeOverride =
+//                        versionCodes.get(abi) * 1048576 + defaultConfig.versionCode
+//            }
+>>>>>>> 409e066b41072a2f0f8b58d0db7026571debd743
 
         }
     }
@@ -186,6 +202,21 @@ dependencies {
     implementation "com.facebook.react:react-native:+"  // From node_modules
 
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
+<<<<<<< HEAD
+=======
+    implementation"junit:junit:4.12"
+    implementation"androidx.test:core:1.0.0"
+    implementation"org.mockito:mockito-core:1.10.19"
+    implementation 'org.jetbrains:annotations:15.0'
+    androidTestImplementation 'androidx.test:runner:1.1.0'
+    androidTestImplementation 'androidx.test:rules:1.1.0'
+    // Optional -- Hamcrest library
+    androidTestImplementation 'org.hamcrest:hamcrest-library:1.3'
+    // Optional -- UI testing with Espresso
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+    // Optional -- UI testing with UI Automator
+    androidTestImplementation 'androidx.test.uiautomator:uiautomator:2.2.0'
+>>>>>>> 409e066b41072a2f0f8b58d0db7026571debd743
 
     debugImplementation("com.facebook.flipper:flipper:${FLIPPER_VERSION}") {
       exclude group:'com.facebook.fbjni'

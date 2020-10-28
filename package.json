@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "java_demo",
+=======
+  "name": "Javademo",
+>>>>>>> 409e066b41072a2f0f8b58d0db7026571debd743
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -17,9 +21,15 @@
     "@babel/core": "^7.12.3",
     "@babel/runtime": "^7.12.1",
     "@react-native-community/eslint-config": "^2.0.0",
+<<<<<<< HEAD
     "babel-jest": "^26.6.1",
     "eslint": "^7.12.1",
     "jest": "^26.6.1",
+=======
+    "babel-jest": "^26.6.0",
+    "eslint": "^7.11.0",
+    "jest": "^26.6.0",
+>>>>>>> 409e066b41072a2f0f8b58d0db7026571debd743
     "metro-react-native-babel-preset": "^0.63.0",
     "react-test-renderer": "16.13.1"
   },

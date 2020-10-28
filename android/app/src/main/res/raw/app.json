@@ -1,4 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "java_demo",
   "displayName": "java_demo"
+=======
+  "name": "Javademo",
+  "displayName": "Javademo"
+>>>>>>> 409e066b41072a2f0f8b58d0db7026571debd743
 }

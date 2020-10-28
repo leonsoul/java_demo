@@ -8,8 +8,13 @@ buildscript {
         targetSdkVersion = 29
     }
     repositories {
+<<<<<<< HEAD
         maven { url 'https://maven.aliyun.com/repository/google/' }
         maven { url 'https://maven.aliyun.com/repository/jcenter/'}
+=======
+        google()
+        jcenter()
+>>>>>>> 409e066b41072a2f0f8b58d0db7026571debd743
     }
     dependencies {
         classpath('com.android.tools.build:gradle:4.1.0')
@@ -30,8 +35,13 @@ allprojects {
             url("$rootDir/../node_modules/jsc-android/dist")
         }
 
+<<<<<<< HEAD
         maven { url 'https://maven.aliyun.com/repository/google/' }
         maven { url 'https://maven.aliyun.com/repository/jcenter/'}
+=======
+        google()
+        jcenter()
+>>>>>>> 409e066b41072a2f0f8b58d0db7026571debd743
         maven { url 'https://www.jitpack.io' }
     }
 }

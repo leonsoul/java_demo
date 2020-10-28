@@ -1,5 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
   package="com.java_demo">
+=======
+  package="com.javademo">
+>>>>>>> 409e066b41072a2f0f8b58d0db7026571debd743
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,11 +15,19 @@
       android:allowBackup="false"
       android:theme="@style/AppTheme">
       <activity
+<<<<<<< HEAD
         android:name=".MainActivity"
         android:label="@string/app_name"
         android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
         android:launchMode="singleTask"
         android:windowSoftInputMode="adjustResize">
+=======
+          android:name=".MainActivity"
+          android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+          android:label="@string/app_name"
+          android:launchMode="singleTask"
+          android:windowSoftInputMode="adjustResize">
+>>>>>>> 409e066b41072a2f0f8b58d0db7026571debd743
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
             <category android:name="android.intent.category.LAUNCHER" />

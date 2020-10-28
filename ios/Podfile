@@ -3,12 +3,20 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
+<<<<<<< HEAD
 target 'java_demo' do
+=======
+target 'Javademo' do
+>>>>>>> 409e066b41072a2f0f8b58d0db7026571debd743
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
+<<<<<<< HEAD
   target 'java_demoTests' do
+=======
+  target 'JavademoTests' do
+>>>>>>> 409e066b41072a2f0f8b58d0db7026571debd743
     inherit! :complete
     # Pods for testing
   end
@@ -23,10 +31,17 @@ target 'java_demo' do
   end
 end
 
+<<<<<<< HEAD
 target 'java_demo-tvOS' do
   # Pods for java_demo-tvOS
 
   target 'java_demo-tvOSTests' do
+=======
+target 'Javademo-tvOS' do
+  # Pods for Javademo-tvOS
+
+  target 'Javademo-tvOSTests' do
+>>>>>>> 409e066b41072a2f0f8b58d0db7026571debd743
     inherit! :search_paths
     # Pods for testing
   end

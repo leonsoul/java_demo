@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">java_demo</string>
+=======
+    <string name="app_name">Javademo</string>
+>>>>>>> 409e066b41072a2f0f8b58d0db7026571debd743
 </resources>
